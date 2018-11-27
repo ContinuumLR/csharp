@@ -115,12 +115,6 @@ namespace Emitter
         #endregion Error Members
 
         #region Static Members
-
-        /// <summary>
-        /// Gets the default instance of the client.
-        /// </summary>
-        public static readonly Connection Default = new Connection();
-
         /// <summary>
         /// Establishes a new connection by creating the connection instance and connecting to it.
         /// </summary>
